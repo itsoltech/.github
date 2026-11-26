@@ -13,17 +13,13 @@ We publish some of the tools we build for our own work.
 
 ## Canopy
 
-<a href="https://github.com/itsoltech/canopy-desktop"><img src="https://raw.githubusercontent.com/itsoltech/canopy-desktop/main/docs/screenshot.png" alt="Canopy with a Claude Code session, the git worktree sidebar and a multi-pane terminal in one window" width="100%"></a>
+<a href="https://github.com/itsoltech/canopy"><img src="https://canopy.itsol.tech/assets/product/thread-1600.webp" alt="A Canopy thread showing an interactive rollout plan from Codex alongside the thread details" width="100%"></a>
 
-A desktop app for running AI coding agents on many git worktrees at once. Every worktree gets its own terminal, agent session, inspector and browser tab, and the sidebar shows which session is running, waiting for input or done. The inspector tracks cost, tokens, context usage and tool calls per session. Canopy works with Claude Code, Codex, Gemini CLI and OpenCode, and connects to GitHub, Jira and YouTrack.
+Canopy by IT SOL is a self-hosted workspace for AI coding agents. Run Claude Code and Codex on your own computer or server and follow their work from desktop, web, or mobile.
 
-We built it because our team runs Claude Code on more than a dozen PR branches every day. It is free and needs no account. Builds for macOS (signed and notarized) and Windows (signed), AppImage and DEB for Linux. Source-available license.
+Canopy is free for personal and commercial use. Your model provider may charge separately for a subscription or API usage.
 
-The next major version is a native rewrite in Rust, with the UI on GPUI and the terminal on Alacritty's core. It is developed in the open on the [`rust-rewrite`](https://github.com/itsoltech/canopy-desktop/tree/rust-rewrite) branch.
-
-[![Release](https://img.shields.io/github/v/release/itsoltech/canopy-desktop?style=flat-square&label=release&color=0b0b0a)](https://github.com/itsoltech/canopy-desktop/releases/latest) [![Downloads](https://img.shields.io/github/downloads/itsoltech/canopy-desktop/total?style=flat-square&color=0b0b0a)](https://github.com/itsoltech/canopy-desktop/releases) [![Stars](https://img.shields.io/github/stars/itsoltech/canopy-desktop?style=flat-square&color=0b0b0a)](https://github.com/itsoltech/canopy-desktop)
-
-[Download](https://github.com/itsoltech/canopy-desktop/releases/latest) · [canopy.itsol.tech](https://canopy.itsol.tech) · [Repository](https://github.com/itsoltech/canopy-desktop)
+[Download Canopy](https://canopy.itsol.tech/#download) · [Repository](https://github.com/itsoltech/canopy) · [Migrate from Canopy Desktop](https://canopy.itsol.tech/migrate/)
 
 ## basal-rs
 
